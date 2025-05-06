@@ -1,5 +1,3 @@
-// 🔥 Modal.jsx (Responsive Fix - Keeping Full Content)
-
 import React from 'react';
 
 function Modal({ movie, onClose }) {

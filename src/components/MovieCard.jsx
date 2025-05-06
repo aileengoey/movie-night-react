@@ -1,5 +1,3 @@
-// 🔥 MovieCard.jsx (Premium Polish)
-
 import React from 'react';
 
 function MovieCard({

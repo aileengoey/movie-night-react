@@ -1,5 +1,3 @@
-// 🔥 FINAL CLEAN VERSION (Minimalist Netflix-style)
-
 import { useEffect, useState } from 'react';
 import MovieCard from './components/MovieCard';
 import { Toaster, toast } from 'react-hot-toast';
