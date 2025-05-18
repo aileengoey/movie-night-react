@@ -18,7 +18,7 @@ function App() {
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
 
-  const apiKey = '8653055a7956020303dda2bcb003624a';
+  const apiKey = process.env.REACT_APP_TMDB_API_KEY;
 
   // Fetch movies with optional filters
   const fetchMovies = (query = '', genre = '', rating = '', page = 1) => {
